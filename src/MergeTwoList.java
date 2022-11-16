@@ -1,5 +1,3 @@
-import java.util.LinkedList;
-
 /**
  * 力扣21，合并两个有序链表
  */
@@ -27,12 +25,8 @@ public class MergeTwoList {
         return result.next;
     }
 
-    public static void main(String[] args) {
-
+    static class ListNode {
+        Integer val;
+        ListNode next;
     }
-}
-
-class ListNode {
-    Integer val;
-    ListNode next;
 }
