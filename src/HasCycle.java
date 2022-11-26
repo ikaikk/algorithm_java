@@ -2,11 +2,6 @@
  * 力扣141，判断是否有环形链表
  */
 public class HasCycle {
-    static class ListNode {
-        int val;
-        ListNode next;
-    }
-
     public boolean hasCycleWithFastSlowHead(ListNode head) {
         if (null == head) {
             return false;

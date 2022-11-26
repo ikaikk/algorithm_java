@@ -5,11 +5,6 @@ import java.util.List;
  * 力扣234，回文链表
  */
 public class Palindrome {
-    static class ListNode {
-        int val;
-        ListNode next;
-    }
-
     public boolean isPalindrome(ListNode head) {
         List<Integer> list = new ArrayList<>();
         ListNode currentNode = head;

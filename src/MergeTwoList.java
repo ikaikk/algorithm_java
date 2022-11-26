@@ -2,7 +2,6 @@
  * 力扣21，合并两个有序链表
  */
 public class MergeTwoList {
-
     public ListNode mergeTwoLists(ListNode list1, ListNode list2) {
         ListNode result = new ListNode();
         result.val = -1;
@@ -23,10 +22,5 @@ public class MergeTwoList {
         head.next = list1 == null ? list2 : list1;
 
         return result.next;
-    }
-
-    static class ListNode {
-        Integer val;
-        ListNode next;
     }
 }

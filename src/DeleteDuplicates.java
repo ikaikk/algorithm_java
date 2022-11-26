@@ -2,14 +2,9 @@
  * 力扣83，删除有序链表中重复元素
  */
 public class DeleteDuplicates {
-    static class ListNode {
-        int val;
-        ListNode next;
-    }
-
     public ListNode deleteDuplicates(ListNode head) {
         if (null == head) {
-            return head;
+            return null;
         }
 
         ListNode currentNode = head;

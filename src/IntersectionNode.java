@@ -2,11 +2,6 @@
  * 力扣160，相交链表
  */
 public class IntersectionNode {
-    static class ListNode {
-        int val;
-        ListNode next;
-    }
-
     public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
         if (null == headA || null == headB) {
             return null;
