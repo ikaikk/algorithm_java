@@ -10,6 +10,6 @@ public class MiddleNode {
             fast = fast.next.next;
         }
 
-        return slow; 
+        return slow;
     }
 }
