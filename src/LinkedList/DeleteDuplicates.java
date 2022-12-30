@@ -1,3 +1,5 @@
+package LinkedList;
+
 /**
  * 力扣83，删除有序链表中重复元素
  */

@@ -1,3 +1,5 @@
+package LinkedList;
+
 /**
  * 力扣160，相交链表
  */

@@ -1,3 +1,5 @@
+package LinkedList;
+
 /**
  * 力扣141，判断是否有环形链表
  */
@@ -21,15 +23,15 @@ public class HasCycle {
         return false;
     }
 
-/*    public boolean hasCycle(ListNode head) {
+/*    public boolean hasCycle(LinkedList.ListNode head) {
         if (null == head) {
             return false;
         }
 
-        HashMap<ListNode, Integer> map = new HashMap<>();
+        HashMap<LinkedList.ListNode, Integer> map = new HashMap<>();
         int pos = -1;
 
-        ListNode current = head;
+        LinkedList.ListNode current = head;
         int i = 1;
         while (null != current.next) {
             if (map.containsKey(current)) {

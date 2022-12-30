@@ -1,3 +1,5 @@
+package LinkedList;
+
 /**
  * 力扣876，链表的中间节点
  */

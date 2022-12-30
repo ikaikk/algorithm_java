@@ -1,3 +1,5 @@
+package LinkedList;
+
 /**
  * 力扣206，反转链表
  */
