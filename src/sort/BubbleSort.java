@@ -1,24 +1,22 @@
 package sort;
 
 public class BubbleSort {
-    public void bubbleSort(int[] arr) {
-        int length = arr.length;
-
-        for (int i = 0; i < length; i++) {
-            for (int j = 0; j < length - i - 1; j++) {
+    public static void bubbleSort(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr.length - i - 1; j++) {
+                // 每次排出最大的数
                 if (arr[j] > arr[j + 1]) {
-                    int temp = arr[j + 1];
-                    arr[j + 1] = arr[j];
-                    arr[j] = temp;
-                 }
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
             }
         }
     }
 
     public static void main(String[] args) {
         int[] arr = {1, 3, 6, 2, 11, 9};
-        BubbleSort bubbleSort = new BubbleSort();
-        bubbleSort.bubbleSort(arr);
+        bubbleSort(arr);
         for (int i : arr) {
             System.out.println(i);
         }
